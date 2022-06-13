@@ -1,0 +1,40 @@
+.paiCriarBaralho {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+}
+
+.ladoEsquerdo {
+  background-color: white;
+  flex: 1;
+  padding: 80px 100px;
+}
+
+.ladoEsquerdo .titulo {
+  color: #444955;
+  font-family: Epilogue , sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.ladoDireito {
+  align-items: center;
+  background-color: #023031;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  padding: 80px 100px;
+}
+
+.ladoDireito .titulo {
+  align-self: flex-start;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 70px;
+}

@@ -1,0 +1,146 @@
+/*
+Este CSS foi disponibilizado por jgabrielfes
+https://github.com/jgabrielfes/tryunfo-project
+
+Este CSS foi editado por João Pster
+*/
+
+.buttonBox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.tryunfo-card {
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  outline: 8px solid white;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  width: 255px;
+}
+
+.tryunfo-card > p:nth-of-type( 1 ) {
+  background-color: #023031;
+  border-radius: 8px 8px 0 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  height: 1.5em;
+  margin: 0;
+  overflow: hidden;
+  padding: 2px 15px;
+  text-align: right;
+}
+
+.tryunfo-card > img {
+  background-color: #023031;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  height: 50%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.tryunfo-card > p:nth-of-type( 2 ) {
+  font-family: Epilogue , sans-serif;
+  font-size: 0.55em;
+  font-weight: 300;
+  margin: 0;
+  overflow-wrap: break-word;
+  padding: 2px;
+  text-align: justify;
+  transform: rotate(-6.3deg) translateY(-13px);
+}
+
+.attr-container {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  bottom: 15px;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  left: 15px;
+  padding: 30px 0 0;
+  position: absolute;
+  right: 15px;
+  top: 62%;
+}
+
+.attr-paragraph {
+  display: flex;
+  padding: 0 15px;
+}
+
+.attr-paragraph > p:nth-of-type( 1 ) {
+  background-color: #f0f2f5;
+  border-radius: 10px 0 0 10px;
+  color: #3d495c;
+  flex: 1 1 auto;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 0;
+  padding: 4px 15px;
+  text-align: left;
+}
+
+.attr-paragraph > p:nth-of-type( 2 ) {
+  background-color: #023031;
+  border-radius: 0 10px 10px 0;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 0;
+  padding: 4px 0;
+  width: 43px;
+}
+
+.tryunfo-card > p:nth-of-type( 3 ) {
+  display: none;
+}
+
+.tryunfo-card > p:nth-of-type( 4 ) {
+  background-color: #036b52;
+  border: 0.4em solid black;
+  border-radius: 50%;
+  font-size: 0.5em;
+  margin: 0;
+  padding: 2.35em 0.2em;
+  position: absolute;
+  right: 25px;
+  text-decoration: underline;
+  text-decoration-color: #2fc18c;
+  top: 38%;
+  transform: rotate(-10deg);
+}
+
+@media ( max-width : 720px ) {
+
+  .tryunfo-card {
+    size: 0.5em;
+  }
+}
+
+.button-delete {
+  background-color: transparent;
+  border: 3px solid gray;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+  padding: 10px;
+  transition-duration: 200ms;
+  width: 120px;
+}
+
+.button-delete:enabled:hover {
+  background-color: gray;
+  color: white;
+}

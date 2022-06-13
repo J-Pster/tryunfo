@@ -1,0 +1,21 @@
+.paiMeuBaralho {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 80px;
+}
+
+.paiMeuBaralho h1 {
+  color: #444955;
+  font-family: Epilogue , sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.paiMeuBaralho .cartasDoBaralho {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+}

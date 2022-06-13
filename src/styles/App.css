@@ -1,0 +1,17 @@
+.homeMain {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  justify-content: center;
+}
+
+.homeMain h1 {
+  color: #444955;
+  font-family: Epilogue , sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 50px;
+}
